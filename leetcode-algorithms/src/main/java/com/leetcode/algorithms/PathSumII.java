@@ -1,5 +1,7 @@
 package com.leetcode.algorithms;
 
+import com.leetcode.algorithms.model.TreeNode;
+
 import java.util.*;
 
 /**
@@ -47,13 +49,5 @@ public class PathSumII {
         }
 
         return result;
-    }
-
-
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int x) { val = x; }
     }
 }

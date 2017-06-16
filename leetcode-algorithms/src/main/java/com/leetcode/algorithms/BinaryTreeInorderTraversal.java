@@ -1,18 +1,13 @@
 package com.leetcode.algorithms;
 
+import com.leetcode.algorithms.model.TreeNode;
+
 import java.util.*;
 
 /**
  * https://leetcode.com/problems/binary-tree-inorder-traversal/
  */
 public class BinaryTreeInorderTraversal {
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int x) { val = x; }
-    }
-
     public List<Integer> inorderTraversal(TreeNode root) {
 
         if (root == null) {

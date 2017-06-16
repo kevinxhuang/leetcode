@@ -1,5 +1,7 @@
 package com.leetcode.algorithms;
 
+import com.leetcode.algorithms.model.ListNode;
+
 import java.util.Random;
 
 /**
@@ -31,11 +33,5 @@ public class LinkedListRandomNode {
         }
 
         return current.val;
-    }
-
-    public static class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int x) { val = x; }
     }
 }

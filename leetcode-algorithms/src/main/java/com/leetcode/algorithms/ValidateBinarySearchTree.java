@@ -1,18 +1,14 @@
 package com.leetcode.algorithms;
 
 
+import com.leetcode.algorithms.model.TreeNode;
+
 import java.util.*;
 
 /**
  * https://leetcode.com/problems/validate-binary-search-tree
  */
 public class ValidateBinarySearchTree {
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int x) { val = x; }
-    }
 
     public boolean isValidBST(TreeNode root) {
         List<Integer> values = inorderTraversal(root);

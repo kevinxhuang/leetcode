@@ -1,5 +1,7 @@
 package com.leetcode.algorithms;
 
+import com.leetcode.algorithms.model.RandomListNode;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -31,11 +33,5 @@ public class CopyListWithRandomPointer {
         }
 
         return nodeMap.get(head);
-    }
-
-    public static class RandomListNode {
-        int label;
-        RandomListNode next, random;
-        RandomListNode(int x) { this.label = x; }
     }
 }

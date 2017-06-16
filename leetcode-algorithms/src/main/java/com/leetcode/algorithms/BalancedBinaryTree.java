@@ -1,5 +1,7 @@
 package com.leetcode.algorithms;
 
+import com.leetcode.algorithms.model.TreeNode;
+
 import java.util.*;
 
 /**
@@ -44,12 +46,5 @@ public class BalancedBinaryTree {
             depthMap.put(node, Math.max(depthOfLeftSubtree, depthOfRightSubtree) + 1);
         }
         return true;
-    }
-
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int x) { val = x; }
     }
 }

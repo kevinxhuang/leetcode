@@ -1,5 +1,7 @@
 package com.leetcode.algorithms;
 
+import com.leetcode.algorithms.model.ListNode;
+
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
@@ -7,11 +9,6 @@ import java.util.PriorityQueue;
  * https://leetcode.com/problems/merge-k-sorted-lists/
  */
 public class MergekSortedLists {
-    public static class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int x) { val = x; }
-    }
 
     public ListNode mergeKLists(ListNode[] lists) {
         if (lists.length == 0) {
