@@ -7,7 +7,7 @@ import java.util.List;
 import static org.testng.Assert.*;
 
 public class AssertUtil {
-    public static <T extends Comparable> void compareList(List<T> list1, List<T> list2) {
+    public static  void compareElements(List<? extends Comparable> list1, List<? extends Comparable> list2) {
         if (list1 == null || list2 == null) {
             assertEquals(list1, list2);
         }
@@ -22,14 +22,12 @@ public class AssertUtil {
         }
     }
 
-    public static <T extends Comparable> void compareArrays(T[] array1, T[] array2) {
+    public static void compareArrays(int[] array1, int[] array2) {
         if (array1 == null || array2 == null) {
             assertEquals(array1, array2);
         }
         assertEquals(array1.length, array2.length);
 
-        Arrays.sort(array1);
-        Arrays.sort(array2);
         for(int i = 0; i < array1.length; i++) {
             assertEquals(array1[i], array2[i]);
         }

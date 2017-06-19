@@ -16,9 +16,9 @@ public class BinaryTreeRightSideViewTest {
         root.left.right = new TreeNode(5);
         root.right.right = new TreeNode(4);
 
-        AssertUtil.compareList(new BinaryTreeRightSideView().rightSideView(root), Arrays.asList(1, 3, 4));
+        AssertUtil.compareElements(new BinaryTreeRightSideView().rightSideView(root), Arrays.asList(1, 3, 4));
 
-        AssertUtil.compareList(new BinaryTreeRightSideView().rightSideView(new TreeNode(1)), Arrays.asList(1));
-        AssertUtil.compareList(new BinaryTreeRightSideView().rightSideView(null), Collections.emptyList());
+        AssertUtil.compareElements(new BinaryTreeRightSideView().rightSideView(new TreeNode(1)), Arrays.asList(1));
+        AssertUtil.compareElements(new BinaryTreeRightSideView().rightSideView(null), Collections.emptyList());
     }
 }

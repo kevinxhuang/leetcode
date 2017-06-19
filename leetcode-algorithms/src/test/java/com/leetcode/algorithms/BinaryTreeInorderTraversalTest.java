@@ -14,7 +14,7 @@ public class BinaryTreeInorderTraversalTest {
         root.left = null;
         root.right = new TreeNode(2);
         root.right.left = new TreeNode(3);
-        AssertUtil.compareList(new BinaryTreeInorderTraversal().inorderTraversal(root), Arrays.asList(1, 3, 2));
+        AssertUtil.compareElements(new BinaryTreeInorderTraversal().inorderTraversal(root), Arrays.asList(1, 3, 2));
 
         TreeNode root2 = new TreeNode(1);
         root2.left = new TreeNode(2);
@@ -22,6 +22,6 @@ public class BinaryTreeInorderTraversalTest {
         root2.left.left = new TreeNode(4);
         root2.left.right = new TreeNode(5);
         root2.left.right.left = new TreeNode(6);
-        AssertUtil.compareList(new BinaryTreeInorderTraversal().inorderTraversal(root2), Arrays.asList(4, 2, 6, 5, 1, 3));
+        AssertUtil.compareElements(new BinaryTreeInorderTraversal().inorderTraversal(root2), Arrays.asList(4, 2, 6, 5, 1, 3));
     }
 }
