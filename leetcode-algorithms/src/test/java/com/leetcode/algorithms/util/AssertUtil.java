@@ -1,6 +1,7 @@
 package com.leetcode.algorithms.util;
 
-import java.util.Arrays;
+import com.leetcode.algorithms.model.ListNode;
+
 import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
@@ -31,5 +32,18 @@ public class AssertUtil {
         for(int i = 0; i < array1.length; i++) {
             assertEquals(array1[i], array2[i]);
         }
+    }
+
+    public static void compareLinkedList(ListNode head1, ListNode head2) {
+        ListNode p1 = head1;
+        ListNode p2 = head2;
+
+        while(p1 != null && p2 != null) {
+            assertEquals(p1.val, p2.val);
+            p1 = p1.next;
+            p2 = p2.next;
+        }
+
+        assertEquals(p1, p2);
     }
 }
