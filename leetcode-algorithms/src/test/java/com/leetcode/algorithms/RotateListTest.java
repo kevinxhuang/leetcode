@@ -14,7 +14,7 @@ public class RotateListTest {
         list1.next.next = new ListNode(3);
         list1.next.next.next = new ListNode(4);
         list1.next.next.next.next = new ListNode(5);
-        assertEquals(4, new RotateList().rotateRight(list1, 10).val);
+        assertEquals(1, new RotateList().rotateRight(list1, 10).val);
 
 
         ListNode list2 = new ListNode(1);
