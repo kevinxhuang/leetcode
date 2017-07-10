@@ -34,4 +34,13 @@ class AlgorithmsTest {
 //    assertEquals(TwoSum.twoSum(Array(2, 7, 11, 15), 9), Array(0, 1))
 //    assertEquals(TwoSum.twoSum(Array(3,2,4), 6), Array(1, 2))
 //  }
+
+  @Test
+  def testWordPattern(): Unit = {
+    assertEquals(WordPattern.wordPattern("abba", "dog cat cat dog"), true)
+    assertEquals(WordPattern.wordPattern("abba", "dog cat cat fish"), false)
+    assertEquals(WordPattern.wordPattern("aaaa", "dog cat cat dog"), false)
+    assertEquals(WordPattern.wordPattern("abba", "dog dog dog dog"), false)
+    assertEquals(WordPattern.wordPattern("aaa", "aaa aa aa aa aa"), false)
+  }
 }
