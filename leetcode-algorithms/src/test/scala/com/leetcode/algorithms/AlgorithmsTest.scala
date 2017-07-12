@@ -1,11 +1,14 @@
 package com.leetcode.algorithms
 
 import com.leetcode.algorithms.scalamodel._
-import org.testng.Assert.assertEquals
-import org.testng.annotations.Test
+import org.junit.Test
+import org.junit.Assert._
+import org.junit.runner.RunWith
+import org.scalatest.FunSuite
+import org.scalatest.junit.JUnitRunner
 
-
-class AlgorithmsTest {
+@RunWith(classOf[JUnitRunner])
+class AlgorithmsTest extends FunSuite {
   @Test
   def testAddTwoNumbers(): Unit = {
     val l1 = new ListNode(2)
@@ -28,12 +31,6 @@ class AlgorithmsTest {
     assertEquals(AddBinary.addBinary("11", "1"), "100")
     assertEquals(AddBinary.addBinary("1000000000000000000000000000000", "1"), "1000000000000000000000000000001")
   }
-
-//  @Test
-//  def testTwoSum(): Unit = {
-//    assertEquals(TwoSum.twoSum(Array(2, 7, 11, 15), 9), Array(0, 1))
-//    assertEquals(TwoSum.twoSum(Array(3,2,4), 6), Array(1, 2))
-//  }
 
   @Test
   def testWordPattern(): Unit = {
