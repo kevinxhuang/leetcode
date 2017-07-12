@@ -43,4 +43,11 @@ class AlgorithmsTest {
     assertEquals(WordPattern.wordPattern("abba", "dog dog dog dog"), false)
     assertEquals(WordPattern.wordPattern("aaa", "aaa aa aa aa aa"), false)
   }
+
+  @Test
+  def testIntegerReplacement(): Unit = {
+    assertEquals(IntegerReplacement.integerReplacement(8), 3)
+    assertEquals(IntegerReplacement.integerReplacement(7), 4)
+    assertEquals(IntegerReplacement.integerReplacement(1), 0)
+  }
 }
