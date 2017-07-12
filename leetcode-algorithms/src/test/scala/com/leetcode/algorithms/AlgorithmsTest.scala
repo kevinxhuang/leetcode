@@ -1,14 +1,10 @@
 package com.leetcode.algorithms
 
 import com.leetcode.algorithms.scalamodel._
-import org.junit.Test
-import org.junit.Assert._
-import org.junit.runner.RunWith
-import org.scalatest.FunSuite
-import org.scalatest.junit.JUnitRunner
+import org.testng.annotations.Test
+import org.testng.Assert._
 
-@RunWith(classOf[JUnitRunner])
-class AlgorithmsTest extends FunSuite {
+class AlgorithmsTest {
   @Test
   def testAddTwoNumbers(): Unit = {
     val l1 = new ListNode(2)
@@ -46,5 +42,10 @@ class AlgorithmsTest extends FunSuite {
     assertEquals(IntegerReplacement.integerReplacement(8), 3)
     assertEquals(IntegerReplacement.integerReplacement(7), 4)
     assertEquals(IntegerReplacement.integerReplacement(1), 0)
+  }
+
+  @Test
+  def testNumberOfBoomerangs(): Unit = {
+    assertEquals(NumberOfBoomerangs.numberOfBoomerangs(Array(Array(0, 0), Array(1, 0), Array(2, 0))), 2)
   }
 }
