@@ -1,10 +1,11 @@
 package com.leetcode.algorithms
 
 import com.leetcode.algorithms.scalamodel._
+import org.scalatest.testng.TestNGSuite
 import org.testng.annotations.Test
 import org.testng.Assert._
 
-class AlgorithmsTest {
+class AlgorithmsTest extends TestNGSuite {
   @Test
   def testAddTwoNumbers(): Unit = {
     val l1 = new ListNode(2)
