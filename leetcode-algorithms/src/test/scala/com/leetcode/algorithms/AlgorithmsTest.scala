@@ -49,4 +49,12 @@ class AlgorithmsTest extends TestNGSuite {
   def testNumberOfBoomerangs(): Unit = {
     assertEquals(NumberOfBoomerangs.numberOfBoomerangs(Array(Array(0, 0), Array(1, 0), Array(2, 0))), 2)
   }
+
+  @Test
+  def testMyPow(): Unit = {
+    assertEquals(Pow.myPow(5, 0), 1.toDouble)
+    assertEquals(Pow.myPow(5, 1), 5.toDouble)
+    assertEquals(Pow.myPow(5, 2), 25.toDouble)
+    assertEquals(Pow.myPow(2, 10), 1024.toDouble)
+  }
 }
