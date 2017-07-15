@@ -57,4 +57,16 @@ class AlgorithmsTest extends TestNGSuite {
     assertEquals(Pow.myPow(5, 2), 25.toDouble)
     assertEquals(Pow.myPow(2, 10), 1024.toDouble)
   }
+
+  @Test
+  def testIsNumber(): Unit = {
+    assertTrue(ValidNumber.isNumber("0"))
+    assertTrue(ValidNumber.isNumber(" 0.1 "))
+    assertFalse(ValidNumber.isNumber("abc"))
+    assertFalse(ValidNumber.isNumber("1 a"))
+    assertTrue(ValidNumber.isNumber("2e10"))
+    assertFalse(ValidNumber.isNumber("959440.94f"))
+    assertTrue(ValidNumber.isNumber("-1."))
+    assertTrue(ValidNumber.isNumber("+.8"))
+  }
 }
