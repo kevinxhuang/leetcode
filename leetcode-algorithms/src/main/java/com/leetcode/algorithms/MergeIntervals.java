@@ -1,5 +1,7 @@
 package com.leetcode.algorithms;
 
+import com.leetcode.algorithms.model.Interval;
+
 import java.util.*;
 
 /**
@@ -28,13 +30,6 @@ public class MergeIntervals {
             mergedIntervals.add(interval);
         }
         return mergedIntervals;
-    }
-
-    public static class Interval {
-        int start;
-        int end;
-        Interval() { start = 0; end = 0; }
-        Interval(int s, int e) { start = s; end = e; }
     }
 
     public class IntervalComparator implements Comparator<Interval> {

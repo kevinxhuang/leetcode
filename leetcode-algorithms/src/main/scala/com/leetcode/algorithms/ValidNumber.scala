@@ -12,7 +12,7 @@ object ValidNumber {
       s.trim().toDouble
       true
     } catch {
-      case _ => false
+      case _ : Throwable => false
     }
   }
 }

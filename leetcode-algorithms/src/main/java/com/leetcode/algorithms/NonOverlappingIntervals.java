@@ -1,5 +1,7 @@
 package com.leetcode.algorithms;
 
+import com.leetcode.algorithms.model.Interval;
+
 import java.util.Arrays;
 import java.util.Comparator;
 
@@ -41,12 +43,5 @@ public class NonOverlappingIntervals {
                 return (interval1.end - interval1.start) - (interval2.start - interval2.end);
             }
         }
-    }
-
-    public static class Interval {
-        int start;
-        int end;
-        Interval() { start = 0; end = 0; }
-        Interval(int s, int e) { start = s; end = e; }
     }
 }
