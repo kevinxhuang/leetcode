@@ -69,4 +69,12 @@ class AlgorithmsTest extends TestNGSuite {
     assertTrue(ValidNumber.isNumber("-1."))
     assertTrue(ValidNumber.isNumber("+.8"))
   }
+
+  @Test
+  def testLongestPalindrome(): Unit = {
+    assertEquals(LongestPalindromicSubstring.longestPalindrome("babad"), "bab")
+    assertEquals(LongestPalindromicSubstring.longestPalindrome("cbbd"), "bb")
+    assertEquals(LongestPalindromicSubstring.longestPalindrome(""), "")
+    assertEquals(LongestPalindromicSubstring.longestPalindrome("a"), "a")
+  }
 }
