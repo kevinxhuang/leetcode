@@ -77,4 +77,25 @@ class AlgorithmsTest extends TestNGSuite {
     assertEquals(LongestPalindromicSubstring.longestPalindrome(""), "")
     assertEquals(LongestPalindromicSubstring.longestPalindrome("a"), "a")
   }
+
+  @Test
+  def testIsSymmetric(): Unit = {
+    val tree1 = new TreeNode(1)
+    tree1.left = new TreeNode(2)
+    tree1.right = new TreeNode(2)
+    tree1.left.left = new TreeNode(3)
+    tree1.left.right = new TreeNode(4)
+    tree1.right.left = new TreeNode(4)
+    tree1.right.right = new TreeNode(3)
+    assertTrue(SymmetricTree.isSymmetric(tree1))
+
+    val tree2 = new TreeNode(1)
+    tree2.left = new TreeNode(2)
+    tree2.right = new TreeNode(2)
+    tree2.left.right = new TreeNode(3)
+    tree2.right.right = new TreeNode(3)
+    assertFalse(SymmetricTree.isSymmetric(tree2))
+
+    assertTrue(SymmetricTree.isSymmetric(null))
+  }
 }
