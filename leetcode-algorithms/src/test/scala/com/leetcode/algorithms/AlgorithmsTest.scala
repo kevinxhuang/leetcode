@@ -98,4 +98,15 @@ class AlgorithmsTest extends TestNGSuite {
 
     assertTrue(SymmetricTree.isSymmetric(null))
   }
+
+//  @Test
+//  def testReadBinaryWatch(): Unit = {
+//    assertEquals(BinaryWatch.readBinaryWatch(1).sorted.mkString, Array("1:00", "2:00", "4:00", "8:00", "0:01", "0:02", "0:04", "0:08", "0:16", "0:32").sorted.mkString)
+//    assertEquals(BinaryWatch.readBinaryWatch(8).sorted.mkString, Array("7:31","7:47","7:55","7:59","11:31","11:47","11:55","11:59").sorted.mkString)
+//  }
+
+  @Test
+  def testMaxCount(): Unit = {
+    assertEquals(RangeAdditionII.maxCount(3, 3, Array(Array(2, 2), Array(3,3))), 4)
+  }
 }
