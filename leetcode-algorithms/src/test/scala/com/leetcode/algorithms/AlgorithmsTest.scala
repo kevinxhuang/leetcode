@@ -109,4 +109,9 @@ class AlgorithmsTest extends TestNGSuite {
   def testMaxCount(): Unit = {
     assertEquals(RangeAdditionII.maxCount(3, 3, Array(Array(2, 2), Array(3,3))), 4)
   }
+
+  @Test
+  def testHIndex(): Unit = {
+    assertEquals(HIndex.hIndex(Array(3, 0, 6, 1, 5)), 3)
+  }
 }
