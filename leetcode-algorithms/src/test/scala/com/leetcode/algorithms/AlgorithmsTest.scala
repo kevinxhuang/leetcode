@@ -99,11 +99,11 @@ class AlgorithmsTest extends TestNGSuite {
     assertTrue(SymmetricTree.isSymmetric(null))
   }
 
-//  @Test
-//  def testReadBinaryWatch(): Unit = {
-//    assertEquals(BinaryWatch.readBinaryWatch(1).sorted.mkString, Array("1:00", "2:00", "4:00", "8:00", "0:01", "0:02", "0:04", "0:08", "0:16", "0:32").sorted.mkString)
-//    assertEquals(BinaryWatch.readBinaryWatch(8).sorted.mkString, Array("7:31","7:47","7:55","7:59","11:31","11:47","11:55","11:59").sorted.mkString)
-//  }
+  @Test
+  def testReadBinaryWatch(): Unit = {
+    assertEquals(BinaryWatch.readBinaryWatch(1).sorted.mkString, Array("1:00", "2:00", "4:00", "8:00", "0:01", "0:02", "0:04", "0:08", "0:16", "0:32").sorted.mkString)
+    assertEquals(BinaryWatch.readBinaryWatch(8).sorted.mkString, Array("7:31","7:47","7:55","7:59","11:31","11:47","11:55","11:59").sorted.mkString)
+  }
 
   @Test
   def testMaxCount(): Unit = {
@@ -113,5 +113,12 @@ class AlgorithmsTest extends TestNGSuite {
   @Test
   def testHIndex(): Unit = {
     assertEquals(HIndex.hIndex(Array(3, 0, 6, 1, 5)), 3)
+  }
+
+  @Test
+  def testGrayCode(): Unit = {
+    assertEquals(GrayCode.grayCode(0), List(0))
+    assertEquals(GrayCode.grayCode(2), List(0,1,3,2))
+    assertEquals(GrayCode.grayCode(3), List(0, 1, 3, 2, 6, 7, 5, 4))
   }
 }
