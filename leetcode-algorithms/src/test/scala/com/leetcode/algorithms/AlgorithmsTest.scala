@@ -121,4 +121,11 @@ class AlgorithmsTest extends TestNGSuite {
     assertEquals(GrayCode.grayCode(2), List(0,1,3,2))
     assertEquals(GrayCode.grayCode(3), List(0, 1, 3, 2, 6, 7, 5, 4))
   }
+
+  @Test
+  def testReverse(): Unit = {
+    assertEquals(ReverseInteger.reverse(123), 321)
+    assertEquals(ReverseInteger.reverse(-123), -321)
+    assertEquals(ReverseInteger.reverse(1534236469), 0)
+  }
 }
