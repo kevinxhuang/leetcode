@@ -136,4 +136,12 @@ class AlgorithmsTest extends TestNGSuite {
     assertEquals(PalindromeNumber.isPalindrome(1), true)
     assertEquals(PalindromeNumber.isPalindrome(12), false)
   }
+
+  @Test
+  def testBook(): Unit = {
+    val calendar = new MyCalendarI()
+    assertEquals(calendar.book(10, 20), true)
+    assertEquals(calendar.book(15, 25), false)
+    assertEquals(calendar.book(20, 30), true)
+  }
 }
