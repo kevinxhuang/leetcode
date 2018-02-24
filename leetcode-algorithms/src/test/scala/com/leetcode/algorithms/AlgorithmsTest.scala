@@ -128,4 +128,12 @@ class AlgorithmsTest extends TestNGSuite {
     assertEquals(ReverseInteger.reverse(-123), -321)
     assertEquals(ReverseInteger.reverse(1534236469), 0)
   }
+
+  @Test
+  def testIsPalindrome(): Unit = {
+    assertEquals(PalindromeNumber.isPalindrome(12321), true)
+    assertEquals(PalindromeNumber.isPalindrome(-12321), false)
+    assertEquals(PalindromeNumber.isPalindrome(1), true)
+    assertEquals(PalindromeNumber.isPalindrome(12), false)
+  }
 }
