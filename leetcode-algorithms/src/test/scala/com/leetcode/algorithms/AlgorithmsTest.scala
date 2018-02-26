@@ -144,4 +144,12 @@ class AlgorithmsTest extends TestNGSuite {
     assertEquals(calendar.book(15, 25), false)
     assertEquals(calendar.book(20, 30), true)
   }
+
+  @Test
+  def testMaxRotateFunction(): Unit = {
+    assertEquals(RotateFunction.maxRotateFunction(Array(4, 3, 2, 6)), 26)
+    assertEquals(RotateFunction.maxRotateFunction(Array(1)), 0)
+    assertEquals(RotateFunction.maxRotateFunction(Array(1,2)), 2)
+    assertEquals(RotateFunction.maxRotateFunction(Array()), 0)
+  }
 }
