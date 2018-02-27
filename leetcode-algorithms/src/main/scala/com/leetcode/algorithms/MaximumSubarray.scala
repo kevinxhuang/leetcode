@@ -8,7 +8,7 @@ package com.leetcode.algorithms
 object MaximumSubarray {
   def maxSubArray(nums: Array[Int]): Int = {
     if (nums.length == 0) {
-      0
+      return 0
     }
 
     val dp = Array.fill[Int](nums.length)(0)
