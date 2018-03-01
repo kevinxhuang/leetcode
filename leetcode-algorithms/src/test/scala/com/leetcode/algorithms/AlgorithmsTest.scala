@@ -152,4 +152,10 @@ class AlgorithmsTest extends TestNGSuite {
     assertEquals(RotateFunction.maxRotateFunction(Array(1,2)), 2)
     assertEquals(RotateFunction.maxRotateFunction(Array()), 0)
   }
+
+  @Test
+  def testFirstUniqChar(): Unit = {
+    assertEquals(FirstUniqueCharacterInAString.firstUniqChar("leetcode"), 0)
+    assertEquals(FirstUniqueCharacterInAString.firstUniqChar("loveleetcode"), 2)
+  }
 }
