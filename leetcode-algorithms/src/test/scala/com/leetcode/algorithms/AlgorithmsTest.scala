@@ -158,4 +158,13 @@ class AlgorithmsTest extends TestNGSuite {
     assertEquals(FirstUniqueCharacterInAString.firstUniqChar("leetcode"), 0)
     assertEquals(FirstUniqueCharacterInAString.firstUniqChar("loveleetcode"), 2)
   }
+
+  @Test
+  def testPick(): Unit = {
+    val nums = Array(1,2,3,3,3)
+    assertEquals(new RandomPickIndex(nums).pick(2), 1)
+    assertTrue(new RandomPickIndex(nums).pick(3) == 2
+      || new RandomPickIndex(nums).pick(3) == 3
+      || new RandomPickIndex(nums).pick(3) == 4)
+  }
 }
