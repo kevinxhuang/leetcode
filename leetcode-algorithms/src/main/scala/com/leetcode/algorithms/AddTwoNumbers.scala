@@ -3,7 +3,6 @@ package com.leetcode.algorithms
 import com.leetcode.algorithms.scalamodel.ListNode
 
 /**
-  * https://leetcode.com/problems/add-two-numbers
   */
 object AddTwoNumbers {
   def addTwoNumbers(l1: ListNode, l2: ListNode): ListNode = {

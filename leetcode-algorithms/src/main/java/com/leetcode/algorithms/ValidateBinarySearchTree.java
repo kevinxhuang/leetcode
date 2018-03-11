@@ -6,8 +6,7 @@ import com.leetcode.algorithms.model.TreeNode;
 import java.util.*;
 
 /**
- * https://leetcode.com/problems/validate-binary-search-tree
- */
+  */
 public class ValidateBinarySearchTree {
 
     public boolean isValidBST(TreeNode root) {

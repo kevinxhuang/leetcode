@@ -3,8 +3,7 @@ package com.leetcode.algorithms;
 import java.util.*;
 
 /**
- * https://leetcode.com/problems/design-twitter/
- */
+  */
 public class Twitter {
     private final Set<Integer> users;
     private final Map<Integer, Set<Integer>> links;

@@ -6,8 +6,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 /**
- * https://leetcode.com/problems/non-overlapping-intervals/
- */
+  */
 public class NonOverlappingIntervals {
     public int eraseOverlapIntervals(Interval[] intervals) {
         Arrays.sort(intervals, new IntervalComparator());

@@ -3,7 +3,6 @@ package com.leetcode.algorithms
 /**
   * 326. Power of Three
   *
-  * https://leetcode.com/problems/power-of-three
   */
 object PowerOfThree {
   def isPowerOfThree(n: Int): Boolean = {

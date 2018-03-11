@@ -6,8 +6,7 @@ import java.util.Comparator;
 import java.util.PriorityQueue;
 
 /**
- * https://leetcode.com/problems/merge-k-sorted-lists/
- */
+  */
 public class MergekSortedLists {
 
     public ListNode mergeKLists(ListNode[] lists) {

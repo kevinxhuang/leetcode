@@ -3,7 +3,6 @@ package com.leetcode.algorithms
 /**
   * 53. Maximum Subarray
   *
-  * https://leetcode.com/problems/maximum-subarray
   */
 object MaximumSubarray {
   def maxSubArray(nums: Array[Int]): Int = {

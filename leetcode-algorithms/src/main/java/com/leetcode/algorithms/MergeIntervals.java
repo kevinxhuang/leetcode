@@ -5,8 +5,7 @@ import com.leetcode.algorithms.model.Interval;
 import java.util.*;
 
 /**
- * https://leetcode.com/problems/merge-intervals/
- */
+  */
 public class MergeIntervals {
     public List<Interval> merge(List<Interval> intervals) {
         Collections.sort(intervals, new IntervalComparator());

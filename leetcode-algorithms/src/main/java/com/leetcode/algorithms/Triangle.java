@@ -5,8 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * https://leetcode.com/problems/triangle/?tab=Description
- */
+  */
 public class Triangle {
     public int minimumTotal(List<List<Integer>> triangle) {
         int[][] minValues = new int[2][triangle.get(triangle.size() - 1).size()];

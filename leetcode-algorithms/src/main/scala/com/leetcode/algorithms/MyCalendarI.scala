@@ -4,7 +4,6 @@ package com.leetcode.algorithms
 /**
   * 729. My Calendar I
   *
-  * https://leetcode.com/problems/my-calendar-i
   */
 class MyCalendarI {
   import scala.collection.mutable.ArrayBuffer

@@ -1,8 +1,7 @@
 package com.leetcode.algorithms;
 
 /**
- * https://leetcode.com/problems/add-digits/
- */
+  */
 public class AddDigits {
     public int addDigits(int num) {
         int number = num;

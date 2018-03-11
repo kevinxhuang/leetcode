@@ -9,8 +9,7 @@ import java.util.TreeMap;
 /**
  * 436. Find Right Interval
  *
- * https://leetcode.com/problems/find-right-interval
- */
+  */
 public class FindRightInterval {
     public int[] findRightInterval(Interval[] intervals) {
         int[] result = new int[intervals.length];

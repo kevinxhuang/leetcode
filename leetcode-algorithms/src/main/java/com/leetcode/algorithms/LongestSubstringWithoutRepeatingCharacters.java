@@ -3,8 +3,7 @@ package com.leetcode.algorithms;
 import java.util.Arrays;
 
 /**
- * https://leetcode.com/problems/longest-substring-without-repeating-characters
- */
+  */
 public class LongestSubstringWithoutRepeatingCharacters {
     public int lengthOfLongestSubstring(String s) {
         if (s.length() <= 1) {

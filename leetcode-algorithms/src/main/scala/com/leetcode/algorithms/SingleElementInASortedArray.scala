@@ -1,7 +1,6 @@
 package com.leetcode.algorithms
 
 /**
-  * https://leetcode.com/problems/single-element-in-a-sorted-array
   */
 object SingleElementInASortedArray {
   def singleNonDuplicate(nums: Array[Int]): Int = {

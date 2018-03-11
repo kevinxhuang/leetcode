@@ -1,7 +1,6 @@
 package com.leetcode.algorithms
 
 /**
-  * https://leetcode.com/problems/top-k-frequent-elements
   */
 class TopKFrequentElements {
   def topKFrequent(nums: Array[Int], k: Int): List[Int] = {

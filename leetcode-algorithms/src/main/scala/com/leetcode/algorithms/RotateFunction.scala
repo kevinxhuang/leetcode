@@ -3,8 +3,7 @@ package com.leetcode.algorithms
 /**
   * 396. Rotate Function
   *
-  * https://leetcode.com/problems/rotate-function
-  *
+    *
   * Inspired by https://leetcode.com/problems/rotate-function/discuss/87853/Java-O(n)-solution-with-explanation
   *
   * F(k) = 0 * Bk[0] + 1 * Bk[1] + ... + (n-1) * Bk[n-1]

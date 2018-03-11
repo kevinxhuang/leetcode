@@ -6,7 +6,6 @@ import com.leetcode.algorithms.scalamodel.TreeNode
 /**
   * 101. Symmetric Tree
   *
-  * https://leetcode.com/problems/symmetric-tree
   */
 object SymmetricTree {
   def isSymmetric(root: TreeNode): Boolean = {

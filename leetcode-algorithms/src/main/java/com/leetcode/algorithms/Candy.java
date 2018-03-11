@@ -3,8 +3,7 @@ package com.leetcode.algorithms;
 import java.util.*;
 
 /**
- * https://leetcode.com/problems/candy/
- */
+  */
 public class Candy {
     public int candy(int[] ratings) {
         if (ratings.length == 1) {

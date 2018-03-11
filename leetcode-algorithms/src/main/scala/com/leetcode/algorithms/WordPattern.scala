@@ -2,7 +2,6 @@ package com.leetcode.algorithms
 
 
 /**
-  * https://leetcode.com/problems/word-pattern
   */
 object WordPattern {
   def wordPattern(pattern: String, str: String): Boolean = {

@@ -1,8 +1,7 @@
 package com.leetcode.algorithms;
 
 /**
- * https://leetcode.com/problems/longest-palindrome/
- */
+  */
 public class LongestPalindrome {
     public int longestPalindrome(String s) {
         int[] charCount = new int['z' - 'A' + 1];

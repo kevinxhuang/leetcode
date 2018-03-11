@@ -3,8 +3,7 @@ package com.leetcode.algorithms;
 import java.util.*;
 
 /**
- * https://leetcode.com/problems/frog-jump/
- */
+  */
 public class FrogJump {
     public boolean canCross(int[] stones) {
         Map<Integer, Set<Integer>> stoneMap = new HashMap<>(); // stone -> jumps

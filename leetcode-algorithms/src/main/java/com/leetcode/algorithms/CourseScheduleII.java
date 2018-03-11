@@ -4,8 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 /**
- * https://leetcode.com/problems/course-schedule-ii/?tab=Description
- */
+  */
 public class CourseScheduleII {
     public int[] findOrder(int numCourses, int[][] prerequisites) {
         int[][] graph = new int[numCourses][numCourses];

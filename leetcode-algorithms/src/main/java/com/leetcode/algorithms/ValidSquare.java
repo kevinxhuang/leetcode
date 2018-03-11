@@ -4,8 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * https://leetcode.com/problems/valid-square
- */
+  */
 public class ValidSquare {
     public boolean validSquare(int[] p1, int[] p2, int[] p3, int[] p4) {
         Set<Integer> distSet = new HashSet<>();

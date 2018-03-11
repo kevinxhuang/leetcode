@@ -3,8 +3,7 @@ package com.leetcode.algorithms;
 import com.leetcode.algorithms.model.TreeNode;
 
 /**
- * https://leetcode.com/problems/minimum-depth-of-binary-tree
- */
+  */
 public class MinimumDepthOfBinaryTree {
     public int minDepth(TreeNode root) {
         if (root == null) {

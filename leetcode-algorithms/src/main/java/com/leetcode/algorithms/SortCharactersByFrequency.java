@@ -3,8 +3,7 @@ package com.leetcode.algorithms;
 import java.util.*;
 
 /**
- * https://leetcode.com/problems/sort-characters-by-frequency/
- */
+  */
 public class SortCharactersByFrequency {
     public String frequencySort(String s) {
         Map<Character, Integer> charsMap = new HashMap<>();

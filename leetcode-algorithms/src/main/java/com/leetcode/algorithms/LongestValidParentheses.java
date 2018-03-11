@@ -3,8 +3,7 @@ package com.leetcode.algorithms;
 import java.util.Stack;
 
 /**
- * https://leetcode.com/problems/longest-valid-parentheses/
- */
+  */
 public class LongestValidParentheses {
     public int longestValidParentheses(String s) {
         Stack<Integer> stack = new Stack<>();

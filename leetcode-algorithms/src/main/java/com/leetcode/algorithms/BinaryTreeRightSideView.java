@@ -5,8 +5,7 @@ import com.leetcode.algorithms.model.TreeNode;
 import java.util.*;
 
 /**
- * https://leetcode.com/problems/binary-tree-right-side-view/?tab=Description
- */
+  */
 public class BinaryTreeRightSideView {
 
 

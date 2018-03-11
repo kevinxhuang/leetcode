@@ -1,8 +1,7 @@
 package com.leetcode.algorithms;
 
 /**
- * https://leetcode.com/problems/sort-colors
- */
+  */
 public class SortColors {
     public void sortColors(int[] nums) {
         if (nums.length <= 1) {

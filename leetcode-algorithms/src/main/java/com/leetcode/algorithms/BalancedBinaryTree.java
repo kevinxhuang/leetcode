@@ -5,8 +5,7 @@ import com.leetcode.algorithms.model.TreeNode;
 import java.util.*;
 
 /**
- * https://leetcode.com/problems/balanced-binary-tree/
- */
+  */
 public class BalancedBinaryTree {
     public boolean isBalanced(TreeNode root) {
         if (root == null) {

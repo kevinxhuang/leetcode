@@ -2,7 +2,6 @@ package com.leetcode.algorithms
 
 
 /**
-  * https://leetcode.com/problems/number-of-boomerangs
   */
 object NumberOfBoomerangs {
   def numberOfBoomerangs(points: Array[Array[Int]]): Int = {

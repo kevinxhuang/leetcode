@@ -1,8 +1,7 @@
 package com.leetcode.algorithms;
 
 /**
- * https://leetcode.com/problems/number-of-1-bits/#/description
- */
+  */
 public class NumberOfOneBits {
     public int hammingWeight(int n) {
         int m = n;

@@ -3,7 +3,6 @@ package com.leetcode.algorithms
 /**
   * 7. Reverse Integer
   *
-  * https://leetcode.com/problems/reverse-integer
   */
 object ReverseInteger {
   def reverse(x: Int): Int = {

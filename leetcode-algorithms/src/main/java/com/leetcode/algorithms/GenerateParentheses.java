@@ -5,8 +5,7 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * https://leetcode.com/problems/generate-parentheses/?tab=Description
- */
+  */
 public class GenerateParentheses {
     public List<String> generateParenthesis(int n) {
         if (n == 0) {

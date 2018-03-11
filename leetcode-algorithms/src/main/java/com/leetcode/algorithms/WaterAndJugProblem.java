@@ -1,8 +1,7 @@
 package com.leetcode.algorithms;
 
 /**
- * https://leetcode.com/problems/water-and-jug-problem/
- */
+  */
 public class WaterAndJugProblem {
     public boolean canMeasureWater(int x, int y, int z) {
         if (x + y < z) {

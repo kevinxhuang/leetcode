@@ -4,8 +4,7 @@ import com.leetcode.algorithms.model.ListNode;
 import com.leetcode.algorithms.model.TreeNode;
 
 /**
- * https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree
- */
+  */
 public class ConvertSortedListToBinarySearchTree {
     public TreeNode sortedListToBST(ListNode head) {
         return convertToBST(head, null);

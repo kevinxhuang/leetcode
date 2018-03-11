@@ -1,8 +1,7 @@
 package com.leetcode.algorithms;
 
 /**
- * https://leetcode.com/problems/total-hamming-distance
- */
+  */
 public class TotalHammingDistance {
     public int totalHammingDistance(int[] nums) {
         int result = 0;

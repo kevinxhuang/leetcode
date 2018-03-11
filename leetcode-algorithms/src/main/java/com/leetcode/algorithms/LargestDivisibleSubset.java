@@ -5,8 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * https://leetcode.com/problems/largest-divisible-subset
- */
+  */
 public class LargestDivisibleSubset {
     public List<Integer> largestDivisibleSubset(int[] nums) {
         List<Integer> result = new ArrayList<>();

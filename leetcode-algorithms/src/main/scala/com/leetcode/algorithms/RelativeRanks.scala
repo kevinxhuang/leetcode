@@ -3,7 +3,6 @@ package com.leetcode.algorithms
 /**
   * 506. Relative Ranks
   *
-  * https://leetcode.com/problems/relative-ranks
   */
 object RelativeRanks {
   def findRelativeRanks(nums: Array[Int]): Array[String] = {

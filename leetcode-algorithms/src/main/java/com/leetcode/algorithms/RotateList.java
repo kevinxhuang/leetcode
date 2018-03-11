@@ -3,8 +3,7 @@ package com.leetcode.algorithms;
 import com.leetcode.algorithms.model.ListNode;
 
 /**
- * https://leetcode.com/problems/rotate-list
- */
+  */
 public class RotateList {
     public ListNode rotateRight(ListNode head, int k) {
         if (head == null) {

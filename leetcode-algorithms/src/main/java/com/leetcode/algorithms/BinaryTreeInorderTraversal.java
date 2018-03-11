@@ -5,8 +5,7 @@ import com.leetcode.algorithms.model.TreeNode;
 import java.util.*;
 
 /**
- * https://leetcode.com/problems/binary-tree-inorder-traversal/
- */
+  */
 public class BinaryTreeInorderTraversal {
     public List<Integer> inorderTraversal(TreeNode root) {
 

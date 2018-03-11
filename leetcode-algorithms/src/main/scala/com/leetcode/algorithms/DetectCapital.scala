@@ -1,7 +1,6 @@
 package com.leetcode.algorithms
 
 /**
-  * https://leetcode.com/problems/detect-capital
   */
 object DetectCapital {
   def detectCapitalUse(word: String): Boolean = {

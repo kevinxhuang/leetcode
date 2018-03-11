@@ -6,8 +6,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * https://leetcode.com/problems/third-maximum-number
- */
+  */
 public class ThirdMaximumNumber {
     public int thirdMax(int[] nums) {
         List<Integer> topThreeNums = Arrays.stream(nums).boxed().sorted(Comparator.reverseOrder()).distinct().limit(3).collect(Collectors.toList());

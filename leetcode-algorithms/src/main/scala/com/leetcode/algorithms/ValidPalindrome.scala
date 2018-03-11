@@ -3,7 +3,6 @@ package com.leetcode.algorithms
 /**
   * 125. Valid Palindrome
   *
-  * https://leetcode.com/problems/valid-palindrome
   */
 object ValidPalindrome {
   def isPalindrome(s: String): Boolean = {

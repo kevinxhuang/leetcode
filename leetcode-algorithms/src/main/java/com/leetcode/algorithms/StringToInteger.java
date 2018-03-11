@@ -1,8 +1,7 @@
 package com.leetcode.algorithms;
 
 /**
- * https://leetcode.com/problems/string-to-integer-atoi/
- */
+  */
 public class StringToInteger {
     public int myAtoi(String str) {
         String trimmedStr = str.trim();

@@ -5,8 +5,7 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * https://leetcode.com/problems/spiral-matrix
- */
+  */
 public class SpiralMatrix {
 
     private int[] MOVE_X = new int[]{0, 1, 0, -1};

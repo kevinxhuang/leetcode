@@ -5,7 +5,6 @@ import com.leetcode.algorithms.scalamodel.TreeNode
 /**
   * 623. Add One Row to Tree
   *
-  * https://leetcode.com/problems/add-one-row-to-tree
   */
 object AddOneRowToTree {
   import scala.collection.mutable.Queue

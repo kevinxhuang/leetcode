@@ -3,7 +3,6 @@ package com.leetcode.algorithms
 /**
   * 274. H-Index
   *
-  * https://leetcode.com/problems/h-index
   */
 object HIndex {
   def hIndex(citations: Array[Int]): Int = {

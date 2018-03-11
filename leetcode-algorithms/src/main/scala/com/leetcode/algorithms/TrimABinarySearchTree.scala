@@ -5,7 +5,6 @@ import com.leetcode.algorithms.scalamodel.TreeNode
 /**
   * 669. Trim a Binary Search Tree
   *
-  * https://leetcode.com/problems/trim-a-binary-search-tree
   */
 object TrimABinarySearchTree {
   def trimBST(root: TreeNode, L: Int, R: Int): TreeNode = {

@@ -4,8 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * https://leetcode.com/problems/word-break/?tab=Description
- */
+  */
 public class WordBreak {
     public boolean wordBreak(String s, List<String> wordDict) {
         boolean[] canBreak = new boolean[s.length() + 1];

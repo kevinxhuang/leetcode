@@ -3,8 +3,7 @@ package com.leetcode.algorithms;
 import com.leetcode.algorithms.model.ListNode;
 
 /**
- * https://leetcode.com/problems/linked-list-cycle/
- */
+  */
 public class LinkedListCycle {
 
     public boolean hasCycle(ListNode head) {

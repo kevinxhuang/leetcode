@@ -3,8 +3,7 @@ package com.leetcode.algorithms;
 import java.util.*;
 
 /**
- * https://leetcode.com/problems/letter-combinations-of-a-phone-number/
- */
+  */
 public class LetterCombinationsOfAPhoneNumber {
     private static Map<Character, String> phoneNumberMap = null;
     static {

@@ -4,8 +4,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * https://leetcode.com/problems/minimum-time-difference
- */
+  */
 public class MinimumTimeDifference {
     private static final int ONE_DAY_MINS = 24 * 60;
 

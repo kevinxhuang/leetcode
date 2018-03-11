@@ -1,8 +1,7 @@
 package com.leetcode.algorithms;
 
 /**
- * https://leetcode.com/problems/house-robber/
- */
+  */
 public class HouseRobber {
     public int rob(int[] nums) {
         if (nums.length == 0) {

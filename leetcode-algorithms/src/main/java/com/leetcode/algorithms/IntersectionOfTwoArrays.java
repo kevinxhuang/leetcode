@@ -3,8 +3,7 @@ package com.leetcode.algorithms;
 import java.util.*;
 
 /**
- * https://leetcode.com/problems/intersection-of-two-arrays/
- */
+  */
 public class IntersectionOfTwoArrays {
     public int[] intersection(int[] nums1, int[] nums2) {
         Arrays.sort(nums1);

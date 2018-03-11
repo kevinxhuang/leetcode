@@ -5,8 +5,7 @@ import java.util.HashSet;
 import java.util.List;
 
 /**
- * https://leetcode.com/problems/circular-array-loop/
- */
+  */
 public class CircularArrayLoop {
     public boolean circularArrayLoop(int[] nums) {
         if (nums.length < 2) {

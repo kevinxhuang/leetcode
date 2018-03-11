@@ -5,8 +5,7 @@ import com.leetcode.algorithms.model.ListNode;
 import java.util.Random;
 
 /**
- * https://leetcode.com/problems/linked-list-random-node/
- */
+  */
 public class LinkedListRandomNode {
     private int length = 0;
     private ListNode head;

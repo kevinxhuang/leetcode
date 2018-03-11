@@ -3,7 +3,6 @@ package com.leetcode.algorithms
 /**
   * 189. Rotate Array
   *
-  * https://leetcode.com/problems/rotate-array
   */
 object RotateArray {
   def rotate(nums: Array[Int], k: Int): Unit = {

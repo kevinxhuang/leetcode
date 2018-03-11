@@ -3,8 +3,7 @@ package com.leetcode.algorithms;
 import java.util.*;
 
 /**
- * https://leetcode.com/problems/integer-to-english-words/
- */
+  */
 public class IntegerToEnglishWords {
 
     private static String[] SCALES = new String[] {"", "Thousand", "Million", "Billion", "Quadrillion", "Quintillion", "Sextillion"};

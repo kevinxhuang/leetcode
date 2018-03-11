@@ -9,8 +9,7 @@ import java.util.Queue;
 import java.util.stream.Collectors;
 
 /**
- * https://leetcode.com/problems/binary-tree-level-order-traversal
- */
+  */
 public class BinaryTreeLevelOrderTraversal {
     public List<List<Integer>> levelOrder(TreeNode root) {
         if (root == null) {

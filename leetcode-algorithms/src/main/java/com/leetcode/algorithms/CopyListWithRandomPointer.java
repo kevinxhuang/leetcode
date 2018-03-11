@@ -6,8 +6,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * https://leetcode.com/problems/copy-list-with-random-pointer/?tab=Description
- */
+  */
 public class CopyListWithRandomPointer {
     public RandomListNode copyRandomList(RandomListNode head) {
 

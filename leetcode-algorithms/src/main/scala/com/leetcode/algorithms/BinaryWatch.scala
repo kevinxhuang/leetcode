@@ -3,7 +3,6 @@ package com.leetcode.algorithms
 /**
   * 401. Binary Watch
   *
-  * https://leetcode.com/problems/binary-watch
   */
 object BinaryWatch {
   def readBinaryWatch(num: Int): List[String] = {

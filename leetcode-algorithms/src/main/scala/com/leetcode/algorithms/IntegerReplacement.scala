@@ -1,7 +1,6 @@
 package com.leetcode.algorithms
 
 /**
-  * https://leetcode.com/problems/integer-replacement
   */
 object IntegerReplacement {
   def integerReplacement(n: Int): Int = {

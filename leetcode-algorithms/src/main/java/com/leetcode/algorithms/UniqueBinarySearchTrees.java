@@ -1,8 +1,7 @@
 package com.leetcode.algorithms;
 
 /**
- * https://leetcode.com/problems/unique-binary-search-trees/?tab=Description
- *
+  *
  * Inspired by https://discuss.leetcode.com/topic/5673/dp-problem-10-lines-with-comments
  *  1 as root: # of trees = F(0) * F(n-1)  // F(0) == 1
  *  2 as root: # of trees = F(1) * F(n-2)

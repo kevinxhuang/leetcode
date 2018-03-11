@@ -5,8 +5,7 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * https://leetcode.com/problems/largest-number/
- */
+  */
 public class LargestNumber {
     public String largestNumber(int[] nums) {
         List<Number> numbers = new ArrayList<>();

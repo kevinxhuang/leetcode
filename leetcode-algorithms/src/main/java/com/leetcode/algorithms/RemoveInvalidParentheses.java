@@ -3,8 +3,7 @@ package com.leetcode.algorithms;
 import java.util.*;
 
 /**
- * https://leetcode.com/problems/remove-invalid-parentheses/
- */
+  */
 public class RemoveInvalidParentheses {
     public List<String> removeInvalidParentheses(String s) {
         Queue<String> queue = new LinkedList<>();

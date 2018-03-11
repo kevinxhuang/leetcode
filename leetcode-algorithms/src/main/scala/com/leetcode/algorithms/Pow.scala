@@ -1,7 +1,6 @@
 package com.leetcode.algorithms
 
 /**
-  * https://leetcode.com/problems/powx-n
   */
 object Pow {
   def myPow(x: Double, n: Int): Double = {

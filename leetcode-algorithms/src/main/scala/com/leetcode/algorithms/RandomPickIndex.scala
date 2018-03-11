@@ -3,7 +3,6 @@ package com.leetcode.algorithms
 /**
   * 398. Random Pick Index
   *
-  * https://leetcode.com/problems/random-pick-index
   */
 class RandomPickIndex(_nums: Array[Int]) {
   import scala.collection.mutable

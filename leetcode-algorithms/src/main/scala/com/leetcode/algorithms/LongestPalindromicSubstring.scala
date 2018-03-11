@@ -3,7 +3,6 @@ package com.leetcode.algorithms
 /**
   * 5. Longest Palindromic Substring
   *
-  * https://leetcode.com/problems/longest-palindromic-substring
   */
 object LongestPalindromicSubstring {
   def longestPalindrome(s: String): String = {

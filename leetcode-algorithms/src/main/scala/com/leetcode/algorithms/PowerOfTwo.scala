@@ -3,7 +3,6 @@ package com.leetcode.algorithms
 /**
   * 231. Power of Two
   *
-  * https://leetcode.com/problems/power-of-two
   */
 object PowerOfTwo {
   def isPowerOfTwo(n: Int): Boolean = {

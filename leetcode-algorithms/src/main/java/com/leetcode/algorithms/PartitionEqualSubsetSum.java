@@ -3,8 +3,7 @@ package com.leetcode.algorithms;
 import java.util.Arrays;
 
 /**
- * https://leetcode.com/problems/partition-equal-subset-sum
- */
+  */
 public class PartitionEqualSubsetSum {
     public boolean canPartition(int[] nums) {
         if (nums.length <= 1) {

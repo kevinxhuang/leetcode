@@ -1,7 +1,6 @@
 package com.leetcode.algorithms
 
 /**
-  * https://leetcode.com/problems/add-binary
   */
 object AddBinary {
   def addBinary(a: String, b: String): String = {

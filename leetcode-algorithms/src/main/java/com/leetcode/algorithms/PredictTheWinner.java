@@ -1,12 +1,11 @@
 package com.leetcode.algorithms;
 
 /**
- * https://leetcode.com/problems/predict-the-winner
- */
+  */
 public class PredictTheWinner {
     /**
      * Inspired by https://leetcode.com/problems/predict-the-winner/#/solutions
-     */
+   */
     public boolean PredictTheWinner(int[] nums) {
         int[][] dp = new int[nums.length][nums.length];
 

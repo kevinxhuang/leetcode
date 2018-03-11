@@ -1,8 +1,7 @@
 package com.leetcode.algorithms;
 
 /**
- * https://leetcode.com/problems/word-search
- */
+  */
 public class WordSearch {
     private final int NUM_DIRECTIONS = 4;
     private final int[] X_DIRECTIONS = new int[] {-1, 1, 0, 0};

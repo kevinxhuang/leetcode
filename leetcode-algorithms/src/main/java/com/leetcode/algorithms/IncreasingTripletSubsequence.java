@@ -1,8 +1,7 @@
 package com.leetcode.algorithms;
 
 /**
- * https://leetcode.com/problems/increasing-triplet-subsequence/
- */
+  */
 public class IncreasingTripletSubsequence {
     public boolean increasingTriplet(int[] nums) {
         int[] lengthOfSubSequence = new int[nums.length];

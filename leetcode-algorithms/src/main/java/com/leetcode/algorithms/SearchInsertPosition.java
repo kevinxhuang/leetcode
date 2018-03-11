@@ -1,8 +1,7 @@
 package com.leetcode.algorithms;
 
 /**
- * https://leetcode.com/problems/search-insert-position/
- */
+  */
 public class SearchInsertPosition {
     public int searchInsert(int[] nums, int target) {
         if (nums.length == 0) {

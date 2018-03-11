@@ -5,8 +5,7 @@ import java.util.Comparator;
 import java.util.PriorityQueue;
 
 /**
- * https://leetcode.com/problems/course-schedule-iii
- */
+  */
 public class CourseScheduleIII {
 	public int scheduleCourse(int[][] courses) {
 		if (courses.length == 0) {

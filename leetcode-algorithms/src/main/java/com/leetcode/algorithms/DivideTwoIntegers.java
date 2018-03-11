@@ -1,8 +1,7 @@
 package com.leetcode.algorithms;
 
 /**
- * https://leetcode.com/problems/divide-two-integers
- */
+  */
 public class DivideTwoIntegers {
     public int divide(int dividend, int divisor) {
         if (divisor == 0) {

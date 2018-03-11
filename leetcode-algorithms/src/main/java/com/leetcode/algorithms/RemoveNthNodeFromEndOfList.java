@@ -3,8 +3,7 @@ package com.leetcode.algorithms;
 import com.leetcode.algorithms.model.ListNode;
 
 /**
- * https://leetcode.com/problems/remove-nth-node-from-end-of-list/
- */
+  */
 public class RemoveNthNodeFromEndOfList {
     public ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode slow = new ListNode(0);

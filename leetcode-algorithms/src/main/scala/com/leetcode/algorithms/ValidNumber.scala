@@ -1,7 +1,6 @@
 package com.leetcode.algorithms
 
 /**
-  * https://leetcode.com/problems/valid-number
   */
 object ValidNumber {
   def isNumber(s: String): Boolean = {

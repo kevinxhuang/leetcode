@@ -3,7 +3,6 @@ package com.leetcode.algorithms
 /**
   * 89. Gray Code
   *
-  * https://leetcode.com/problems/gray-code
   */
 object GrayCode {
   def grayCode(n: Int): List[Int] = {
