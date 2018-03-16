@@ -167,4 +167,14 @@ class AlgorithmsTest extends TestNGSuite {
       || new RandomPickIndex(nums).pick(3) == 3
       || new RandomPickIndex(nums).pick(3) == 4)
   }
+
+  @Test
+  def testCanPartitionKSubsets(): Unit = {
+    assert(PartitionToKEqualSumSubsets.canPartitionKSubsets(Array(4, 3, 2, 3, 5, 2, 1), 4))
+    assert(PartitionToKEqualSumSubsets.canPartitionKSubsets(Array(4, 3, 2, 3, 5, 2, 1, 1, 1, 1, 1, 1), 5))
+    assert(!PartitionToKEqualSumSubsets.canPartitionKSubsets(Array(4, 3, 2, 3, 5, 2, 1, 1, 1, 1, 1, 2), 5))
+    assert(!PartitionToKEqualSumSubsets.canPartitionKSubsets(Array(2, 6, 6), 2))
+    assert(!PartitionToKEqualSumSubsets.canPartitionKSubsets(Array(2, 2, 2), 2))
+    assert(PartitionToKEqualSumSubsets.canPartitionKSubsets(Array(3522,181,521,515,304,123,2512,312,922,407,146,1932,4037,2646,3871,269), 5))
+  }
 }
