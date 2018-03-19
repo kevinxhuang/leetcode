@@ -177,4 +177,9 @@ class AlgorithmsTest extends TestNGSuite {
     assert(!PartitionToKEqualSumSubsets.canPartitionKSubsets(Array(2, 2, 2), 2))
     assert(PartitionToKEqualSumSubsets.canPartitionKSubsets(Array(3522,181,521,515,304,123,2512,312,922,407,146,1932,4037,2646,3871,269), 5))
   }
+
+  @Test
+  def testMaxProduct(): Unit = {
+    assert(MaximumProductSubarray.maxProduct(Array(2,3,-2,4)) == 6)
+  }
 }
