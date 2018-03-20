@@ -187,4 +187,10 @@ class AlgorithmsTest extends TestNGSuite {
   def testFindShortestSubArray(): Unit = {
     assert(DegreeOfAnArray.findShortestSubArray(Array(1,2,2,3,1)) == 2)
   }
+
+  @Test
+  def testNumMatchingSubseq(): Unit = {
+//    assert(NumberOfMatchingSubsequences.numMatchingSubseq("abcde", Array("a", "bb", "acd", "ace")) == 3)
+    assert(NumberOfMatchingSubsequences.numMatchingSubseq("qlhxagxdqh", Array("qlhxagxdq","qlhxagxdq","lhyiftwtut","yfzwraahab")) == 2)
+  }
 }
