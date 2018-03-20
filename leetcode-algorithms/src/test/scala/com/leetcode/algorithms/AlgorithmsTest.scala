@@ -182,4 +182,9 @@ class AlgorithmsTest extends TestNGSuite {
   def testMaxProduct(): Unit = {
     assert(MaximumProductSubarray.maxProduct(Array(2,3,-2,4)) == 6)
   }
+
+  @Test
+  def testFindShortestSubArray(): Unit = {
+    assert(DegreeOfAnArray.findShortestSubArray(Array(1,2,2,3,1)) == 2)
+  }
 }
