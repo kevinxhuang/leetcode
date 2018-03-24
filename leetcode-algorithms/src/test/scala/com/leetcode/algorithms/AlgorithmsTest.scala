@@ -190,7 +190,7 @@ class AlgorithmsTest extends TestNGSuite {
 
   @Test
   def testNumMatchingSubseq(): Unit = {
-//    assert(NumberOfMatchingSubsequences.numMatchingSubseq("abcde", Array("a", "bb", "acd", "ace")) == 3)
+    assert(NumberOfMatchingSubsequences.numMatchingSubseq("abcde", Array("a", "bb", "acd", "ace")) == 3)
     assert(NumberOfMatchingSubsequences.numMatchingSubseq("qlhxagxdqh", Array("qlhxagxdq","qlhxagxdq","lhyiftwtut","yfzwraahab")) == 2)
   }
 
@@ -198,5 +198,14 @@ class AlgorithmsTest extends TestNGSuite {
   def testCheckPerfectNumber(): Unit = {
     assert(PerfectNumber.checkPerfectNumber(28))
     assert(PerfectNumber.checkPerfectNumber(1) == false)
+  }
+
+  @Test
+  def testSubarraySum(): Unit = {
+    assert(SubarraySumEqualsK.subarraySum(Array(1,1,1), 2) == 2)
+    assert(SubarraySumEqualsK.subarraySum(Array(1,1,1), 3) == 1)
+    assert(SubarraySumEqualsK.subarraySum(Array(1), 1) == 1)
+    assert(SubarraySumEqualsK.subarraySum(Array(), 1) == 0)
+    assert(SubarraySumEqualsK.subarraySum(Array(-1,-1,1), 0) == 1)
   }
 }
