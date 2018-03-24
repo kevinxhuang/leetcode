@@ -193,4 +193,10 @@ class AlgorithmsTest extends TestNGSuite {
 //    assert(NumberOfMatchingSubsequences.numMatchingSubseq("abcde", Array("a", "bb", "acd", "ace")) == 3)
     assert(NumberOfMatchingSubsequences.numMatchingSubseq("qlhxagxdqh", Array("qlhxagxdq","qlhxagxdq","lhyiftwtut","yfzwraahab")) == 2)
   }
+
+  @Test
+  def testCheckPerfectNumber(): Unit = {
+    assert(PerfectNumber.checkPerfectNumber(28))
+    assert(PerfectNumber.checkPerfectNumber(1) == false)
+  }
 }
