@@ -197,7 +197,7 @@ class AlgorithmsTest extends TestNGSuite {
   @Test
   def testCheckPerfectNumber(): Unit = {
     assert(PerfectNumber.checkPerfectNumber(28))
-    assert(PerfectNumber.checkPerfectNumber(1) == false)
+    assert(!PerfectNumber.checkPerfectNumber(1))
   }
 
   @Test
@@ -207,5 +207,11 @@ class AlgorithmsTest extends TestNGSuite {
     assert(SubarraySumEqualsK.subarraySum(Array(1), 1) == 1)
     assert(SubarraySumEqualsK.subarraySum(Array(), 1) == 0)
     assert(SubarraySumEqualsK.subarraySum(Array(-1,-1,1), 0) == 1)
+  }
+
+  @Test
+  def testIsUgly(): Unit = {
+    assert(UglyNumber.isUgly(6))
+    assert(!UglyNumber.isUgly(14))
   }
 }
