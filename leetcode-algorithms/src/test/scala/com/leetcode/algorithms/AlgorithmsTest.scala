@@ -214,4 +214,12 @@ class AlgorithmsTest extends TestNGSuite {
     assert(UglyNumber.isUgly(6))
     assert(!UglyNumber.isUgly(14))
   }
+
+  @Test
+  def testReorganizeString(): Unit = {
+    assert(ReorganizeString.reorganizeString("aab") == "aba")
+    assert(ReorganizeString.reorganizeString("aaab") == "")
+    assert(ReorganizeString.reorganizeString("") == "")
+    assert(ReorganizeString.reorganizeString("aa") == "")
+  }
 }
