@@ -222,4 +222,12 @@ class AlgorithmsTest extends TestNGSuite {
     assert(ReorganizeString.reorganizeString("") == "")
     assert(ReorganizeString.reorganizeString("aa") == "")
   }
+
+  @Test
+  def testReplaceWords(): Unit = {
+    assert(ReplaceWords.replaceWords(List("cat", "bat", "rat"), "the cattle was rattled by the battery")
+      == "the cat was rat by the bat")
+    assert(ReplaceWords.replaceWords(List("a", "aa", "aaa", "aaaa"), "a aa a aaaa aaa aaa aaa aaaaaa bbb baba ababa")
+      == "a a a a a a a a bbb baba a")
+  }
 }
