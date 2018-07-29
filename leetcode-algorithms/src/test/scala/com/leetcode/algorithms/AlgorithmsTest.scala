@@ -230,4 +230,18 @@ class AlgorithmsTest extends TestNGSuite {
     assert(ReplaceWords.replaceWords(List("a", "aa", "aaa", "aaaa"), "a aa a aaaa aaa aaa aaa aaaaaa bbb baba ababa")
       == "a a a a a a a a bbb baba a")
   }
+
+  @Test
+  def testDesignCircularQueue(): Unit = {
+    val circularQueue = new MyCircularQueue(3); // set the size to be 3
+    assert(circularQueue.enQueue(1)) // return true
+    assert(circularQueue.enQueue(2))  // return true
+    assert(circularQueue.enQueue(3))  // return true
+    assert(!circularQueue.enQueue(4))  // return false, the queue is full
+    assert(circularQueue.Rear() ==3) // return 3
+    assert(circularQueue.isFull())  // return true
+    assert(circularQueue.deQueue())  // return true
+    assert(circularQueue.enQueue(4))  // return true
+    assert(circularQueue.Rear() ==4)  // return 4
+  }
 }
