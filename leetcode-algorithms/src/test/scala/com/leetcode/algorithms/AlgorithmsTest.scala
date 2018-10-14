@@ -244,4 +244,11 @@ class AlgorithmsTest extends TestNGSuite {
     assert(circularQueue.enQueue(4))  // return true
     assert(circularQueue.Rear() ==4)  // return 4
   }
+
+  @Test
+  def testSimplifyPath(): Unit = {
+    assert(SimplifyPath.simplifyPath("/home/") == "/home")
+    assert(SimplifyPath.simplifyPath("/../") == "/")
+    assert(SimplifyPath.simplifyPath("/..") == "/")
+  }
 }
