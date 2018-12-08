@@ -260,4 +260,19 @@ class AlgorithmsTest extends TestNGSuite {
     assert(!PowerOfFour.isPowerOfFour(5))
     assert(PowerOfFour.isPowerOfFour(16))
   }
+
+  @Test
+  def testSumNumbers(): Unit = {
+    val root1 = new TreeNode(1)
+    root1.left = new TreeNode(2)
+    root1.right = new TreeNode(3)
+    assert(SumRootToLeafNumbers.sumNumbers(root1) == 25)
+
+    val root2 = new TreeNode(4)
+    root2.left = new TreeNode(9)
+    root2.right = new TreeNode(0)
+    root2.left.left = new TreeNode(5)
+    root2.left.right = new TreeNode(1)
+    assert(SumRootToLeafNumbers.sumNumbers(root2) == 1026)
+  }
 }
