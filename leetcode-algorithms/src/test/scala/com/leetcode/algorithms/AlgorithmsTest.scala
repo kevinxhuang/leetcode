@@ -251,4 +251,13 @@ class AlgorithmsTest extends TestNGSuite {
     assert(SimplifyPath.simplifyPath("/../") == "/")
     assert(SimplifyPath.simplifyPath("/..") == "/")
   }
+
+  @Test
+  def testIsPowerOfFour(): Unit = {
+    assert(!PowerOfFour.isPowerOfFour(0))
+    assert(PowerOfFour.isPowerOfFour(1))
+    assert(PowerOfFour.isPowerOfFour(4))
+    assert(!PowerOfFour.isPowerOfFour(5))
+    assert(PowerOfFour.isPowerOfFour(16))
+  }
 }
