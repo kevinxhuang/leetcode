@@ -275,4 +275,15 @@ class AlgorithmsTest extends TestNGSuite {
     root2.left.right = new TreeNode(1)
     assert(SumRootToLeafNumbers.sumNumbers(root2) == 1026)
   }
+
+  @Test
+  def testLongestCommonPrefix(): Unit = {
+    assert(LongestCommonPrefix.longestCommonPrefix(Array("flower","flow","flight")) == "fl")
+    assert(LongestCommonPrefix.longestCommonPrefix(Array("dog","racecar","car")) == "")
+    assert(LongestCommonPrefix.longestCommonPrefix(Array()) == "")
+    assert(LongestCommonPrefix.longestCommonPrefix(Array("")) == "")
+    assert(LongestCommonPrefix.longestCommonPrefix(Array("a")) == "a")
+    assert(LongestCommonPrefix.longestCommonPrefix(Array("a", "b")) == "")
+    assert(LongestCommonPrefix.longestCommonPrefix(Array("a", "a")) == "a")
+  }
 }
