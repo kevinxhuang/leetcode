@@ -286,4 +286,14 @@ class AlgorithmsTest extends TestNGSuite {
     assert(LongestCommonPrefix.longestCommonPrefix(Array("a", "b")) == "")
     assert(LongestCommonPrefix.longestCommonPrefix(Array("a", "a")) == "a")
   }
+
+  @Test
+  def testFindRedundantConnection(): Unit = {
+    assert(RedundantConnection.findRedundantConnection(
+      Array(Array(1, 2), Array(1, 3), Array(2, 3))) sameElements Array(2, 3))
+    assert(RedundantConnection.findRedundantConnection(
+      Array(Array(1, 2), Array(2, 3), Array(3, 4), Array(1, 4), Array(1, 5))) sameElements Array(1, 4))
+    assert(RedundantConnection.findRedundantConnection(
+      Array(Array(3, 4), Array(1, 2), Array(2, 4), Array(3, 5), Array(2, 5))) sameElements Array(2, 5))
+  }
 }
