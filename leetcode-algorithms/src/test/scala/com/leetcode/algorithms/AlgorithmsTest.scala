@@ -296,4 +296,10 @@ class AlgorithmsTest extends TestNGSuite {
     assert(RedundantConnection.findRedundantConnection(
       Array(Array(3, 4), Array(1, 2), Array(2, 4), Array(3, 5), Array(2, 5))) sameElements Array(2, 5))
   }
+
+  @Test
+  def testCanCompleteCircuit(): Unit = {
+    assert(GasStation.canCompleteCircuit(Array(1,2,3,4,5), Array(3,4,5,1,2)) == 3)
+    assert(GasStation.canCompleteCircuit(Array(2,3,4), Array(3, 4, 3)) == -1)
+  }
 }
