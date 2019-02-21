@@ -302,4 +302,11 @@ class AlgorithmsTest extends TestNGSuite {
     assert(GasStation.canCompleteCircuit(Array(1,2,3,4,5), Array(3,4,5,1,2)) == 3)
     assert(GasStation.canCompleteCircuit(Array(2,3,4), Array(3, 4, 3)) == -1)
   }
+
+  @Test
+  def testEvalRPN(): Unit = {
+    assert(EvaluateReversePolishNotation.evalRPN(Array("2","1","+","3","*")) == 9)
+    assert(EvaluateReversePolishNotation.evalRPN(Array("4", "13", "5", "/", "+")) == 6)
+    assert(EvaluateReversePolishNotation.evalRPN(Array("10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+")) == 22)
+  }
 }
