@@ -13,7 +13,6 @@ object BaseballGame {
       case "D" => stack.push(stack.top * 2)
       case "+" => stack.push(stack.take(2).sum)
       case score => stack.push(score.toInt)
-      case _ => new RuntimeException("Invalid input")
     }
 
     stack.sum
