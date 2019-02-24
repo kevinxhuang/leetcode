@@ -11,7 +11,7 @@
     </parent>
 
     <groupId>com.leetcode</groupId>
-    <artifactId>leetcode-algorithms</artifactId>
+    <artifactId>algorithms</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>

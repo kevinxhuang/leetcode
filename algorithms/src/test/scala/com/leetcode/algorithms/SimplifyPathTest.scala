@@ -7,4 +7,3 @@ class SimplifyPathTest extends AlgorithmsTest {
     SimplifyPath.simplifyPath("/..") should be ("/")
   }
 }
-BaseballGame

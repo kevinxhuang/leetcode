@@ -10,7 +10,7 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>leetcode-algorithms</module>
+        <module>algorithms</module>
     </modules>
 
 </project>
