@@ -1,5 +1,8 @@
 package com.leetcode.algorithms
 
+/**
+  * 819. Most Common Word
+  */
 object MostCommonWord {
   def mostCommonWord(paragraph: String, banned: Array[String]): String = {
     val bannedWordSet = banned.toSet
