@@ -24,12 +24,12 @@ object AlgorithmsUtil {
     result.toArray sameElements values
   }
 
-  def createBinaryTree(values: Array[Int]): TreeNode = {
+  def createBinaryTree(values: Array[Any]): TreeNode = {
     val nodes = values.map(value => {
       if(value == null) {
         null
       } else {
-        new TreeNode(value)
+        new TreeNode(value.asInstanceOf[Int])
       }
     })
 
