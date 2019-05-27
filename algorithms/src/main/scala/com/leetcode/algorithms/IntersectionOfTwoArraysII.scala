@@ -7,10 +7,8 @@ object IntersectionOfTwoArraysII {
     val statsMap1 = getStats(nums1)
     val statsMap2 = getStats(nums2)
 
-    (statsMap1.keySet & statsMap2.keySet)
-      .toArray
-      .map(num => (num, statsMap1(num).min(statsMap2(num))))
-      .flatMap({case (num, count) => Array.fill[Int](count)(num)})
+    (statsMap1.keySet & statsMap2.keySet).toArray
+      .flatMap(num => Array.fill[Int](statsMap1(num).min(statsMap2(num)))(num))
   }
 
   private def getStats(nums: Array[Int]): Map[Int, Int] = {
